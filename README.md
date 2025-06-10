@@ -1,6 +1,6 @@
 # 🎮 **Roblox Scripts**
 
-**欢迎来到我的 Roblox 脚本仓库！这里集合了我开发的一些 Roblox 脚本，所有脚本均可直接执行。如果你有任何问题或建议，欢迎提交 Issue 或 Pull Request！**
+**欢迎来到 Roblox 脚本仓库！这里集合了Furrycalin开发的一些 Roblox 脚本，所有脚本均可直接执行。如果你有任何问题或建议，欢迎向[Furrycalin](https://gitcode.com/Furrycalin/ScriptStorage/)提交 Issue 或 Pull Request！**
 
 ---
 
@@ -12,7 +12,7 @@
 loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/ChronixHubv2.lua"))()
 ```
 **描述**  
-> 重新编写了我的菜单脚本，重新设计了新的 UI，并优化了代码结构。目前仍在持续完善中。  
+> 重新编写了Furrycalin的菜单脚本，重新设计了新的 UI，并优化了代码结构。目前仍在持续完善中。  
 
 **支持的游戏：**  
 - 🛠️ **Deathball**（死亡球）  
@@ -29,7 +29,7 @@ loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/
 loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/customChatSystem.lua"))()
 ```
 **描述**  
-> 我设计的全新的炫酷聊天界面，主要修改有：
+> Furrycalin设计的全新的炫酷聊天界面，主要修改有：
 - 📏 **文字字号调大**
 - 👤 **玩家名左侧添加头像**
 - 🎨 **拥有比原版更多的随机名称颜色**
@@ -177,7 +177,7 @@ loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/
 loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/ChronixHub.lua"))()
 ```
 **描述**  
-> 我的功能性菜单脚本，已实现部分实用功能。此脚本已停止更新，建议使用 ChronixHubV2。
+> Furrycalin的功能性菜单脚本，已实现部分实用功能。此脚本已停止更新，建议使用 ChronixHubV2。
 
 ---
 
@@ -207,7 +207,7 @@ loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/
 loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/Grace.lua"))()
 ```
 **描述**  
-> 我制作的 Grace 脚本，可自动开门并删除所有怪物。
+> Furrycalin制作的 Grace 脚本，可自动开门并删除所有怪物。
 
 ## 🤝 **贡献指南**
 如果你有兴趣为这个项目贡献代码，请遵循以下步骤：
