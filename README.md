@@ -9,7 +9,7 @@
 ### **▶ ChronixHubV2.lua**  
 **执行代码：**  
 ```lua
-loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/ChronixHubv2.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/ChronixHub.lua"))()
 ```
 **描述**  
 > 重新编写了Furrycalin的菜单脚本，重新设计了新的 UI，并优化了代码结构。目前仍在持续完善中。  
@@ -26,7 +26,7 @@ loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/
 ### **▶ customChatSystem.lua**  
 **执行代码：**  
 ```lua
-loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/customChatSystem.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/customChatSystem.lua"))()
 ```
 **描述**  
 > Furrycalin设计的全新的炫酷聊天界面，主要修改有：
@@ -53,7 +53,7 @@ loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/
 ### **▶ FlyV4.lua**  
 **执行代码：**  
 ```lua
-loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/FlyV4.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/FlyV4.lua"))()
 ```
 **描述**  
 > 基于 FlyV3 脚本的魔改版本，重写了 UI 并优化了代码逻辑。新增快捷键 Ctrl + F 来快速切换飞行模式。
@@ -64,7 +64,7 @@ loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/
 **使用方法：**  
 ```lua
 -- 加载实例到脚本中
-local LoadAnimationModule = loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/NewLoadAnimation.lua"))()
+local LoadAnimationModule = loadstring(game:HttpGet("https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/NewLoadAnimation.lua"))()
 
 -- 使用示例
 LoadAnimationModule:LoadAnimation(2, { -- 模拟加载时间的秒数
@@ -92,7 +92,7 @@ LoadAnimationModule:LoadAnimation(2, { -- 模拟加载时间的秒数
 **使用方法：**  
 ```lua
 -- 加载实例到脚本中
-local chatcontrol = loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/chat_test.lua"))()
+local chatcontrol = loadstring(game:HttpGet("https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/chat_test.lua"))()
 
 -- 使用示例
 chatcontrol:chat("这是一段消息")
@@ -111,7 +111,7 @@ end)
 **使用方法：**  
 ```lua
 -- 加载实例到脚本中
-local translateModuel = loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/translateModuel.lua"))()
+local translateModuel = loadstring(game:HttpGet("https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/translateModuel.lua"))()
 
 -- 使用示例
 -- 翻译API
@@ -136,7 +136,7 @@ local text2 = translateModuel:translateText(text1, translateAPI)
 **使用方法：**  
 ```lua
 -- 加载实例到脚本中
-local floatingWindow = loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/floatingWindow.lua"))()
+local floatingWindow = loadstring(game:HttpGet("https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/floatingWindow.lua"))()
 
 -- 使用示例
 local fw = floatingWindow:createWindow("📕", function(label)
@@ -164,7 +164,7 @@ end)
 ### **▶ AdminPanel.lua**  
 **执行代码：**  
 ```lua
-loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/AdminPanel.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/AdminPanel.lua"))()
 ```
 **描述**  
 > 指令式功能集合脚本，通过输入指令实现各种功能。此脚本为 ChronixHub 的分支改版，目前已停止更新。
@@ -174,7 +174,7 @@ loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/
 ### **▶ ChronixHub.lua**  
 **执行代码：**  
 ```lua
-loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/ChronixHub.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/ChronixHub.lua"))()
 ```
 **描述**  
 > Furrycalin的功能性菜单脚本，已实现部分实用功能。此脚本已停止更新，建议使用 ChronixHubV2。
@@ -184,7 +184,7 @@ loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/
 ### **▶ 移速控制.lua（已集成到 ChronixHubV2）**  
 **执行代码：**  
 ```lua
-loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/%E7%A7%BB%E9%80%9F%E6%9B%B4%E6%94%B9.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/%E7%A7%BB%E9%80%9F%E6%9B%B4%E6%94%B9.lua"))()
 ```
 **描述**  
 > 可更改大部分小游戏的移动速度。**注意：** 请不要在有反作弊的服务器中使用，后果自负。
@@ -194,7 +194,7 @@ loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/
 ### **▶ Deathball.lua（已集成到 ChronixHubV2）**  
 **执行代码：**  
 ```lua
-loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/Deathball.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/Deathball.lua"))()
 ```
 **描述**  
 > 死亡球脚本，目前无法使用自动格挡功能。开发已被暂停，欢迎有兴趣的开发者继续完善。
@@ -204,7 +204,7 @@ loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/
 ### **▶ Grace.lua（已集成到 ChronixHubV2）**  
 **执行代码：**  
 ```lua
-loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/Grace.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/Grace.lua"))()
 ```
 **描述**  
 > Furrycalin制作的 Grace 脚本，可自动开门并删除所有怪物。
