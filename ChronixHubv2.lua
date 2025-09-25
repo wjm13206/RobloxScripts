@@ -30,30 +30,7 @@ local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local TextChatService = game:GetService("TextChatService")
 local HttpService = game:GetService("HttpService")
 
-local LoadAnimationModule = loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/NewLoadAnimation.lua"))()
-local tpWalk = loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/tpWalk.lua"))()
-
-local iscancel = false
-
-LoadAnimationModule:LoadAnimation(2, {
-    titleText = "ChronixHub V2",
-    loadingText = "加载中... ",
-    backgroundColor = Color3.new(0, 0, 0),
-    textColor = Color3.new(1, 1, 1),
-    language = "zh",
-    onComplete = function(isCancelled)
-        if isCancelled then
-            iscancel = true
-        end
-    end,
-    showCancelButton = true
-})
-
-wait(5)
-if iscancel then
-    _G.ChronixHubisLoaded = false
-    return
-end
+local tpWalk = loadstring(game:HttpGet("https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/tpWalk.lua"))()
 
 local bb = game:service'VirtualUser'
 local cc = game:service'Players'.LocalPlayer.Idled:connect(function()bb:CaptureController()bb:ClickButton2(Vector2.new())end)
@@ -2393,19 +2370,12 @@ local function AddMenuContent(category)
                 CreateNotification("提示", button.Text .. " 已经成功启动!", 10, true)
             end)
         end
-        addscripts("高级聊天系统", "https://raw.github.com/wjm13206/RobloxScripts/raw/main/customChatSystem.lua")
-        addscripts("飞行V4", "https://raw.github.com/wjm13206/RobloxScripts/raw/main/FlyV4.lua")
-        addscripts("超高画质", "https://raw.gitcode.com/Furrycalin/ScriptStorage/raw/main/Graphics.lua")
-        addscripts("光影", "https://raw.gitcode.com/Furrycalin/ScriptStorage/raw/main/Shader.lua")
-        addscripts("通用自瞄", "https://raw.gitcode.com/Furrycalin/ScriptStorage/raw/main/Zimiao.lua")
+        addscripts("高级聊天系统", "https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/customChatSystem.lua")
+        addscripts("飞行V4", "https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/FlyV4.lua")
+        addscripts("超高画质", "https://raw.gitcode.com/Furrycalin/ScriptStorage/raw/main/mainGraphics.lua")
+        addscripts("光影", "https://raw.gitcode.com/Furrycalin/ScriptStorage/raw/main/mainShader.lua")
+        addscripts("通用自瞄", "https://raw.gitcode.com/Furrycalin/ScriptStorage/raw/main/mainZimiao.lua")
         addscripts("IY5.5.9(指令挂)", "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")
-        addscripts("Dex", "https://cdn.wearedevs.net/scripts/Dex%20Explorer.txt")
-        addscripts("OldMSPaint", "https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua")
-        addscripts("Doors变身脚本", "https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua")
-        addscripts("Doors扫描器", "https://raw.gitcode.com/Furrycalin/ScriptStorage/raw/main/DoorsNVC3000.lua")
-        addscripts("Doors剪刀", "https://raw.gitcode.com/Furrycalin/ScriptStorage/raw/main/shears_done.lua")
-        addscripts("Doors紫色手电筒", "https://raw.gitcode.com/Furrycalin/ScriptStorage/raw/main/PurpleFlashlightScript.lua")
-        addscripts("Doors巧克力罐", "https://raw.gitcode.com/Furrycalin/ScriptStorage/raw/main/ChocolateBar.lua")
         addscripts("通用ESP", "https://raw.gitcode.com/Furrycalin/ScriptStorage/raw/main/ESP.lua")
         addscripts("冬凌中心", "https://raw.gitcode.com/Furrycalin/ScriptStorage/raw/main/DongLingLobby.lua")
         addscripts("玩家控制", "https://raw.gitcode.com/Furrycalin/ScriptStorage/raw/main/PlayerControl.lua")
@@ -2858,7 +2828,7 @@ infoButton.MouseButton1Click:Connect(function()
     AddMenuContent("关于")
 end)
 
-local floatingWindow = loadstring(game:HttpGet("https://raw.github.com/wjm13206/RobloxScripts/raw/main/floatingWindow.lua"))()
+local floatingWindow = loadstring(game:HttpGet("https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/floatingWindow.lua"))()
 local fw = floatingWindow:createWindow("📕", function(label)
     if mainFrame.Visible then
         mainFrame.Visible = false

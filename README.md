@@ -1,6 +1,5 @@
 # 🎮 **Roblox Scripts**
 
-**欢迎来到 Roblox 脚本仓库！这里集合了Furrycalin开发的一些 Roblox 脚本，所有脚本均可直接执行。如果你有任何问题或建议，欢迎向[Furrycalin](https://gitcode.com/Furrycalin/ScriptStorage/)提交 Issue 或 Pull Request！**
 
 ---
 
@@ -12,7 +11,7 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/wjm13206/RobloxScripts/refs/heads/main/ChronixHub.lua"))()
 ```
 **描述**  
-> 重新编写了Furrycalin的菜单脚本，重新设计了新的 UI，并优化了代码结构。目前仍在持续完善中。  
+> Furrycalin重新编写的菜单脚本，重新设计了新的 UI，并优化了代码结构。目前仍在持续完善中。  
 
 **支持的游戏：**  
 - 🛠️ **Deathball**（死亡球）  
